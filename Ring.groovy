@@ -25,7 +25,7 @@ jaw = jaw.roty(180)
 		 .movex(-5)
 		 .movez(30)
 
-ring = new Toroid(9, 12, 10, 10).toCSG()
+ring = new Toroid(9.3745, 12, 10, 10).toCSG()
 ring = ring.movez(17.5)
 		   .movey(5)
 		   .movex(-5)
